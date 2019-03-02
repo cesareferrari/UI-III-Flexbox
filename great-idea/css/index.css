@@ -150,16 +150,17 @@ nav a:first-child {
 }
 
 
-
+.col2, .col3 {
+  display: flex;
+  justify-content: space-between;
+}
 
 .col2 div {
   width: 49%;
-  display: inline-block;
-  margin-right: 10px;
 }
 
-.col2 div:last-child {
-  margin-right: 0;
+.col3 div {
+  width: 32%;
 }
 
 .middle-img {
@@ -167,15 +168,7 @@ nav a:first-child {
   margin: 40px auto;
 }
 
-.col3 div {
-  width: 32%;
-  display: inline-block;
-  margin-right: 12px;
-}
 
-.col3 div:last-child {
-  margin-right: 0;
-}
 
 footer {
   margin-top: 50px;
