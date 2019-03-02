@@ -112,9 +112,18 @@ nav a:first-child {
 }
 
 
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 50px 0 40px;
+}
 
 .headline {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 90px 0 70px;
   margin-left: 90px;
 }
@@ -122,20 +131,6 @@ nav a:first-child {
 .headline h1 {
   font-size: 72px;
   text-align: center;
-}
-
-
-.cover {
-  position: relative;
-  display: block;
-  border-bottom: 1px solid black;
-  margin: 50px 0 40px;
-}
-
-.cover img {
-  position: absolute;
-  right: 0;
-  display: inline-block;
 }
 
 .button {
@@ -153,6 +148,9 @@ nav a:first-child {
   color: white;
   background-color: black;
 }
+
+
+
 
 .col2 div {
   width: 49%;
