@@ -142,6 +142,7 @@ nav a:first-child {
 }
 
 .button {
+  background-color: white;
   display: block;
   margin: 10px auto;
   border: 1px solid black;
@@ -155,6 +156,11 @@ nav a:first-child {
 .button:hover {
   color: white;
   background-color: black;
+}
+
+.rounded {
+  border-radius: 6px;
+  margin: 1.5rem 0 0;
 }
 
 
@@ -196,4 +202,22 @@ footer p {
 .services-header-img {
   display: block;
   margin: 1rem auto 2rem;
+}
+
+.services {
+  padding: 2rem 0;
+  margin: 2rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  padding: 1rem;
+  background-color: #F4F3F4;
+  border: 1px solid black;
+  width: 48%;
+  margin-bottom: 2rem;
 }
