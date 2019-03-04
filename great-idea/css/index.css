@@ -74,14 +74,23 @@ h3 {
 }
 
 p {
-  line-height: 1.2em;
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 1.4rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
 }
 
 .container {
   width: 1024px;
   margin: auto;
   padding: 20px 76px;
-  border: 1px solid red;
 }
 
 header {
@@ -190,6 +199,10 @@ footer {
   border-top: 1px solid black;
 }
 
+footer.no-border {
+  border-top: none;
+}
+
 footer p {
   margin-bottom: 16px;
 }
@@ -205,8 +218,8 @@ footer p {
 }
 
 .services {
-  padding: 2rem 0;
-  margin: 2rem 0;
+  padding: 2rem 0 1rem;
+  margin: 2rem 0 2.5rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
   display: flex;
@@ -215,9 +228,21 @@ footer p {
 }
 
 .service {
-  padding: 1rem;
+  padding: 1rem 1rem 1.5rem;
   background-color: #F4F3F4;
   border: 1px solid black;
   width: 48%;
   margin-bottom: 2rem;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts div {
+  width: 48%;
+}
+
+.services-info-img {
 }
