@@ -65,6 +65,14 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
 p {
   line-height: 1.2em;
 }
@@ -183,4 +191,9 @@ footer p {
 .copyright {
   text-align: center;
   margin-top: 40px;
+}
+
+.services-header-img {
+  display: block;
+  margin: 1rem auto 2rem;
 }
