@@ -36,4 +36,26 @@
     width: 100%;
   }
 
+  .services {
+    flex-direction: column;
+  }
+
+  .service {
+    width: 100%;
+  }
+
+  .facts {
+    flex-direction: column;
+  }
+
+  .facts div {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
+  }
+
 }
