@@ -1,0 +1,39 @@
+@media only screen and (max-width: 568px) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  header nav {
+    order: 2;
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  header nav a {
+    display: block;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: darkgray;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  header .home-link {
+    display: block;
+    order: 1;
+    margin: 1rem 0;
+  }
+
+  .services-header-img {
+    width: 100%;
+  }
+
+}
