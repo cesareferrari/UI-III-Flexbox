@@ -160,6 +160,7 @@ nav a:first-child {
   text-decoration: none;
   color: black;
   padding: 10px 20px;
+  border-radius: 6px;
 }
 
 .button:hover {

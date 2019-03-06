@@ -58,6 +58,10 @@
     padding: 0;
   }
 
+  footer h3 {
+    margin-top: 2rem;
+  }
+
   .cover {
     flex-direction: column;
     margin-top: 1rem;
@@ -71,6 +75,27 @@
     order: 2;
     margin: 1rem;
     padding: 0;
+  }
+
+  .col2 {
+    flex-direction: column;
+  }
+
+  .col2 div {
+    width: 100%;
+  }
+
+  .middle-img {
+    width: 100%;
+    margin: 0 auto 30px;
+  }
+
+  .col3 {
+    flex-direction: column;
+  }
+
+  .col3 div {
+    width: 100%;
   }
 
 }
