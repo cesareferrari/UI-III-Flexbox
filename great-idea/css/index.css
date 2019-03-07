@@ -64,3 +64,184 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  line-height: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: square;
+  margin-left: 1.4rem;
+}
+
+ul li {
+  margin-bottom: 1rem;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+  padding: 20px 76px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  display: inline-block;
+  margin: 10px 20px;
+  color: #c4bebe;
+  text-decoration: none;
+  padding: 10px 10px;
+  overflow: hidden;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+nav a:hover {
+  color: white;
+  background-color: black;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+.logo {
+  display: block;
+}
+
+
+.cover {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin: 50px 0 40px;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 90px 0 70px;
+  margin-left: 90px;
+}
+
+.headline h1 {
+  font-size: 72px;
+  text-align: center;
+}
+
+.button {
+  background-color: white;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid black;
+  text-align: center;
+  width: 160px;
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.button:hover {
+  color: white;
+  background-color: black;
+}
+
+.rounded {
+  border-radius: 6px;
+  margin: 1.5rem 0 0;
+}
+
+
+.col2, .col3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col2 div {
+  width: 49%;
+}
+
+.col3 div {
+  width: 32%;
+}
+
+.middle-img {
+  display: block;
+  margin: 40px auto;
+}
+
+
+
+footer {
+  margin-top: 50px;
+  padding-top: 40px;
+  border-top: 1px solid black;
+}
+
+footer.no-border {
+  border-top: none;
+}
+
+footer p {
+  margin-bottom: 16px;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.services-header-img {
+  display: block;
+  margin: 1rem auto 2rem;
+}
+
+.services {
+  padding: 2rem 0 1rem;
+  margin: 2rem 0 2.5rem;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service {
+  padding: 1rem 1rem 1.5rem;
+  background-color: #F4F3F4;
+  border: 1px solid black;
+  width: 48%;
+  margin-bottom: 2rem;
+}
+
+.facts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.facts div {
+  width: 48%;
+}
+
